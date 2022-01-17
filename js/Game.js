@@ -95,7 +95,7 @@ Tiger.Game.prototype = {
         this.add.button(440, 1250, 'End', this.MainMenu, this);
         this.overlay = this.add.sprite(550, 0, 'mobilelogo');
         this.overlay.visible = window.screen.width > 860 ? false : true;
-        this.add.sprite(125, 275, 'fail1');
+        this.add.sprite(125, 355, 'fail1');
         this.add.sprite(320, 830, 'dump1');
     },
     //hit the rock!!!!!!!!!
@@ -112,7 +112,7 @@ Tiger.Game.prototype = {
         this.add.button(440, 1250, 'End', this.MainMenu, this);
         this.overlay = this.add.sprite(550, 0, 'mobilelogo');
         this.overlay.visible = window.screen.width > 860 ? false : true;
-        this.add.sprite(260, 270, 'fail2');
+        this.add.sprite(260, 350, 'fail2');
         this.add.sprite(290, 850, 'dump2');
     },
     //hit the water!!!!!!
