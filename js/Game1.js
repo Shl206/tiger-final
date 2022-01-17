@@ -90,7 +90,7 @@ Tiger.Game1.prototype = {
         this.add.sprite(25, 230, 'RedBook2');
         this.add.button(40, 1250, 'restart.btn', this.startGame, this);
         this.add.button(440, 1250, 'End', this.MainMenu, this);
-        this.overlay = this.add.sprite(550, 0, 'Logo');
+        this.overlay = this.add.sprite(550, 0, 'mobilelogo');
         this.overlay.visible = window.screen.width > 860 ? false : true;
         this.add.sprite(125, 355, 'fail1');
         this.add.sprite(320, 830, 'dump1');

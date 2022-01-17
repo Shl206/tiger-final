@@ -8,6 +8,6 @@ Tiger.MainMenu.prototype = {
         this.page1 = this.add.sprite(20, 220, 'page1');
     },
     startGame: function () {
-        this.state.start('Game1');
+        this.state.start('Game');
     }
 };
