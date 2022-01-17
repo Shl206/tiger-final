@@ -79,11 +79,11 @@ Tiger.Game3.prototype = {
     },
     showGameOverTxt: function () {
         this.add.tileSprite(0, 0, 828, 1430, 'bgfail');
-        this.add.sprite(25, 150, 'RedBook2');
+        this.add.sprite(25, 230, 'RedBook2');
         this.add.button(40, 1250, 'restart.btn', this.gameReset, this);
         this.add.button(440, 1250, 'End', this.MainMenu, this);
-        this.overlay = this.add.sprite(650, 0, 'Logo');
-        this.overlay.visible = window.screen.width > 480 ? false : true;
+        this.overlay = this.add.sprite(550, 0, 'mobilelogo');
+        this.overlay.visible = window.screen.width > 860 ? false : true;
         this.add.sprite(125, 275, 'fail1');
         this.add.sprite(320, 830, 'dump1');
     },

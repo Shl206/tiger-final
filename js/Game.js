@@ -90,11 +90,11 @@ Tiger.Game.prototype = {
     showGameOverTxt: function () {
 
         this.add.tileSprite(0, 0, 828, 1430, 'bgfail');
-        this.add.sprite(25, 150, 'RedBook2');
+        this.add.sprite(25, 230, 'RedBook2');
         this.add.button(40, 1250, 'restart.btn', this.startGame, this);
         this.add.button(440, 1250, 'End', this.MainMenu, this);
-        this.overlay = this.add.sprite(650, 0, 'Logo');
-        this.overlay.visible = window.screen.width > 880 ? false : true;
+        this.overlay = this.add.sprite(550, 0, 'mobilelogo');
+        this.overlay.visible = window.screen.width > 860 ? false : true;
         this.add.sprite(125, 275, 'fail1');
         this.add.sprite(320, 830, 'dump1');
     },
@@ -107,11 +107,11 @@ Tiger.Game.prototype = {
     },
     showGameOverTxt3: function () {
         this.add.tileSprite(0, 0, 828, 1430, 'bgfail');
-        this.add.sprite(25, 150, 'RedBook2');
+        this.add.sprite(25, 230, 'RedBook2');
         this.add.button(40, 1250, 'restart.btn', this.startGame, this);
         this.add.button(440, 1250, 'End', this.MainMenu, this);
-        this.overlay = this.add.sprite(650, 0, 'Logo');
-        this.overlay.visible = window.screen.width > 880 ? false : true;
+        this.overlay = this.add.sprite(550, 0, 'mobilelogo');
+        this.overlay.visible = window.screen.width > 860 ? false : true;
         this.add.sprite(260, 270, 'fail2');
         this.add.sprite(290, 850, 'dump2');
     },
