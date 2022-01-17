@@ -57,6 +57,7 @@
 	<script src="js/Game2.js"></script>
 	<script src="js/Game3.js"></script>
 	<script src="js/EndGame.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-F0DB3SS098"></script>
 </head>
 
 <body>
@@ -77,6 +78,13 @@
 			game.state.add('EndGame', Tiger.EndGame);
 			game.state.start('Boot');
 		})();
+
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-F0DB3SS098');
+	</script>
 	</script>
 </body>
 
