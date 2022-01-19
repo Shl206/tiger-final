@@ -86,7 +86,7 @@ Tiger.EndGame.prototype = {
         this.add.tileSprite(0, 0, 828, 1430, 'win1Bg');
         this.add.sprite(25, 230, 'RedBook2');
         this.add.sprite(110, 360, 'GM5');
-        this.add.button(230, 1250, 'End', this.MainMenu, this);
+        //this.add.button(230, 1250, 'End', this.MainMenu, this);
         this.add.sprite(40, 710, 'Endgoal');
         this.add.sprite(340, 950, 'endtiger');
         this.overlay = this.add.sprite(550, 0, 'mobilelogo');
@@ -96,9 +96,9 @@ Tiger.EndGame.prototype = {
         this.state.start('Game');
     },
     //Go to MainMenu
-    MainMenu: function () {
-        this.state.start('MainMenu');
-    },
+    //MainMenu: function () {
+        //this.state.start('MainMenu');
+    //},
     runLeft: function () {
         this.tiger.x = 70;
         this.bodyv.x = 70;
